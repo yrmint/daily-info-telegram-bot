@@ -1,6 +1,6 @@
 # a simple telegram bot that sends me daily messages!
 ## now implemented:
-- base of (sot-so-well selected) jokes
+- base of (not-so-well selected) jokes
 - weather forecast
 
 ## todo:
