@@ -11,7 +11,7 @@ elements.pop(0)
 elements.pop(44)
 c = 233
 for element in elements:
-    f = open(f"jokes\{c}.txt", "w")
+    f = open(f"app/jokes\{c}.txt", "w")
     f.write(element.text)
     f.close()
     c += 1

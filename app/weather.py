@@ -3,7 +3,7 @@ import config
 import translate
 
 
-api_key = open('api_key.txt', 'r').read()
+api_key = open('util/api_key.txt', 'r').read()
 result = requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={config.LOCATION}'
                       f'&units=metric&appid={api_key}')
 
