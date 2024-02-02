@@ -1,0 +1,5 @@
+# ignored files
+/.idea
+/token.txt
+/chat_id.txt
+/api_key.txt
